@@ -1,4 +1,4 @@
-# Groundtruth — click-anywhere globe explorer
+# World is Yours — click-anywhere globe explorer
 
 A Next.js app: click any point on a 3D globe, get a live-sourced briefing on
 that location, streamed from Claude and grounded in real-time news + Wikipedia

@@ -21,7 +21,7 @@ const mono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Groundtruth — click anywhere, know what's happening there",
+  title: "World is Yours — click anywhere, know what's happening there",
   description:
     "An interactive globe that surfaces live, sourced information for any point you click.",
 };
@@ -32,7 +32,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${display.variable} ${body.variable} ${mono.variable}`}>
+    <html lang="en" suppressHydrationWarning className={`${display.variable} ${body.variable} ${mono.variable}`}>
       <body className="font-body antialiased">{children}</body>
     </html>
   );
